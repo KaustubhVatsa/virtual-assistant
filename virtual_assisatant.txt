@@ -1,0 +1,16 @@
+Main File:
+Developed a voice-activated assistant using Python with features like speech recognition, text-to-speech conversion, and web search capabilities.
+Integrated APIs for weather information and leveraged web scraping for real-time data retrieval.
+Implemented a modular structure to facilitate easy integration of new features.
+greetme.py:
+Designed a module to greet users based on the time of day.
+Incorporated the datetime module for accurate time-based greetings.
+search.py:
+Created a module to perform web searches on both Google and YouTube.
+Utilized speech recognition to convert voice commands into search queries.
+Implemented error handling to gracefully manage exceptions during web searches.
+weather.py:
+Developed a module to provide real-time weather information based on user input.
+Utilized the OpenWeatherMap API to fetch temperature data for a specified location.
+Implemented a function to convert temperature values from Kelvin to Celsius for user-friendly output.
+These concise summaries emphasize the key features and functionality of each module in your project. You can use these points on your resume to showcase your skills and the scope of your project.
