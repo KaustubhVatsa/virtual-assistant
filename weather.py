@@ -63,7 +63,7 @@ def extract_city_name(query):
 def weather_search(query):
     if "weather" in query :
         cityname = extract_city_name(query)
-        apikey = "36aa94832a1c83fa324d0adf41d5dc47"
+        apikey = "your_api_key(openweather)"
         base_url = "https://api.openweathermap.org/data/2.5/weather?q="
         completeurl = base_url + cityname + "&appid=" + apikey
         response = requests.get(completeurl)
